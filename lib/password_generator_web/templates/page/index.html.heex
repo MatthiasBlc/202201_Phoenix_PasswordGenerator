@@ -27,6 +27,15 @@
       </div>
       <div class="row">
         <div class="column">
+          <%= label f, :numbers, "Include Numbers Characters: " %>
+        </div>
+        <div class="column">
+          <%= checkbox f, :numbers %>
+            (e.g. 1465987)
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
           <%= label f, :symbols, "Include Symbols Characters: " %>
         </div>
         <div class="column">
